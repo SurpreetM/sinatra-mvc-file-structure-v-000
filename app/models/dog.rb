@@ -9,7 +9,7 @@ class Dog
     DOGS << self
   end
 
-  def all
+  def self.all
     DOGS
   end
 
